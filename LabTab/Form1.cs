@@ -35,7 +35,7 @@ namespace LabTab
         {
             double num1 = Convert.ToDouble(txtNum1MultTab3.Text);
             double num2 = Convert.ToDouble(txtNum2MultTab3.Text);
-            double resultado = num1 / num2;
+            double resultado = num1 * num2;
             txtResultadoMultiplicacao.Text = resultado.ToString();
         }
     }
